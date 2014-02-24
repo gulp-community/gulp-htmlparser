@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/stevelacy/gulp-htmlparser.png?branch=master)](https://travis-ci.org/stevelacy/gulp-htmlparser)
 [![NPM version](https://badge.fury.io/js/gulp-htmlparser.png)](http://badge.fury.io/js/gulp-htmlparser)
 
-> gulp plugin for parsing html with [htmlparser](https://github.com/tautologistics/node-htmlparser)
+> [gulp](http://gulpjs.com) plugin for parsing html with [htmlparser](https://github.com/tautologistics/node-htmlparser)
 
 <table>
 <tr> 
