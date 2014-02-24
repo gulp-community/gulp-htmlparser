@@ -10,7 +10,7 @@
 </tr>
 <tr>
 <td>Description</td>
-<td>parse html into js objects with gulp</td>
+<td>Parse html into js objects with gulp</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -30,31 +30,6 @@
 npm install gulp-htmlparser --save
 ```
 ##Example
-
------------
----
-### REMOVE THIS:
-###Directions for boiler use:
-####Replace All occurrences in All files with your name or information:
-
-- gulp-htmlparser: Your app name
-- stevelacy: Your Git Username
-- parse html into js objects with gulp: The description of your app
-- EXAMPLEHERE: The README example for your app
-- Steve Lacy: Your human name, or display name
-- http://slacy.me: Your FULL website domain, or just github.com (including the http/https)
-- me@slacy.me: Your email address
-- SOURCE: Alter the line as needed on the README.md
-
-#### DELETE the .git folder!
-Run `git init` and configure your git repo.
-
-An example of this boiler used is: [gulp-haml](https://github.com/stevelacy/gulp-haml)
-
------------
----
-
-
 
 ```js
 
