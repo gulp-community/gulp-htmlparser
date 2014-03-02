@@ -10,11 +10,12 @@
   "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
   "main": "./index.js",
   "dependencies": {
-    "gulp-util": "*",
     "map-stream": "*",
-    "htmlparser": "~1.7.7"
+    "htmlparser": "~1.7.7",
+    "replace-ext": "0.0.1"
   },
   "devDependencies": {
+    "gulp-util": "*",
     "mocha": "*",
     "should": "*"
   },

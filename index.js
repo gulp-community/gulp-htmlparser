@@ -1,5 +1,5 @@
 var htmlparser = require("htmlparser");
-var gutil = require('gulp-util');
+var rext = require('replace-ext');
 var map = require('map-stream');
 
 module.exports = function(options) {
@@ -13,7 +13,7 @@ module.exports = function(options) {
 
     var handler = new htmlparser.DefaultHandler(function(err, data){
       file.contents = new Buffer(JSON.stringify(data));
-      file.path = gutil.replaceExtension(file.path, options.ext || '.json');
+      file.path = rext(file.path, options.ext || '.json');
       cb(null, file);
     });
 
